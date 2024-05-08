@@ -1,0 +1,165 @@
+Trabalho Interdisciplinar – Planejamento da Sprint
+DADOS GERAIS
+
+Código da Equipe	T1-G2	Nome da Equipe	Gas finder
+Público-Alvo
+(Personas | Stakeholders)	Motoristas
+Proposta de Solução	O objetivo do nosso trabalho é desenvolver uma Aplicação Web, a partir de ferramentas como o HTML e o CSS, de
+modo responsível, com o foco em facilitar o processo de localização dos postos de gasolina, assim como sua
+precificação e seu custo-benefício (tendo em vista o valor do combustível e sua qualidade, a partir de análises). O
+nome (GasFinder) idealiza a função do nosso projeto (encontrar o melhor local para abastecer).
+
+PLANEJAMENTO DE TRABALHO
+Preencha a tabela informando os requisitos funcionais / artefatos a serem criados para identificando o membro da equipe responsável pela implementação.  
+ID	Requisito Funcional / Artefato 	Tipo	Membro
+ 	 	CI	AI	 
+1	Tela de avaliação dos postos			
+2	Tela que mostra a avaliação dos postos		x	
+3	Tela que mostra o usuário			
+4	Tela que mostra os postos 		x	
+5	Transferir a aplicação para o modo escuro 			
+6	Tela do mapa (para mostrar a direção até os postos) 			
+7	Tabela com o preço de todos os postos cadastrados pela ABN em BH			
+8	Tela de cadastro de usuário			
+9	Tela mostrando quem somos			
+10	Tela de pesquisa por filtro			
+11	Integração com a API do google maps			
+12				
+TIPOS DE REQUISITOS / ARTEFATOS: CI – Cadastro de Informações | AI – Apresentação de Informação
+PROJETO DE IMPLEMENTAÇÃO 
+Cada membro deve detalhar como pretende implementar o artefato da Sprint. Informe o nome do membro da equipe, o artefato sob responsabilidade, um esboço da tela com identificação de cada elemento, a funcionalidade de cada elemento e a estrutura de dados em formato JSON.
+Nome do Membro		Artefato	
+Esboço da(s) Tela(s)
+(Wireframe)	
+ 
+
+Funcionalidades dos elementos da tela	1-) Botão hamburgue
+2) Tela com Postos disponiveis	Estrutura(s) de dados 
+(Exemplo em JSON)	{
+    "posto": [
+        {
+            "Cidade": "BELO HORIZONTE",
+            "Nome do posto": "POSTO BEAGAS GNV LTDA.",
+            "CNPJ": " 07.434.428/0001-91",
+            "Rua/avenida": "AVENIDA DOM PEDRO II",
+            "Número": 4685,
+            "Bairro": "JARDIM MONTANHES",
+            "CEP": "30730-690",
+            "Tipo de combustível": "ETANOL",
+            "Data da atualização": "25/03/2024",
+            "Preço": "3,27",
+            "Unidade de medida": "R$ / litro",
+            "Bandeira": "ALESAT"
+        },
+        {
+            "Cidade": "BELO HORIZONTE",
+            "Nome do posto": "POSTO DE COMBUSTIVEL TEREZA CRISTINA LTDA",
+            "CNPJ": " 00.416.967/0001-59",
+            "Rua/avenida": "AVENIDA TEREZA CRISTINA",
+            "Número": 820,
+            "Bairro": "CARLOS PRATES",
+            "CEP": "30710-640",
+            "Tipo de combustível": "ETANOL",
+            "Data da atualização": "26/03/2024",
+            "Preço": "3,27",
+            "Unidade de medida": "R$ / litro",
+            "Bandeira": "VIBRA"
+        },
+        {
+            "Cidade": "BELO HORIZONTE",
+            "Nome do posto": "POSTO BALUARTE LTDA",
+            "CNPJ": " 02.911.786/0001-24",
+            "Rua/avenida": "RODOVIA ANEL RODOVIARIO CELSO MELLO AZEVEDO",
+            "Número": 23750,
+            "Bairro": "EYMARD",
+            "CEP": "31910-585",
+            "Tipo de combustível": "ETANOL",
+            "Data da atualização": "25/03/2024",
+            "Preço": "3,28",
+            "Unidade de medida": "R$ / litro",
+            "Bandeira": "VIBRA"
+        },
+        {
+            "Cidade": "BELO HORIZONTE",
+            "Nome do posto": "POSTO PAULISTINHA LTDA",
+            "CNPJ": " 01.438.754/0001-90",
+            "Rua/avenida": "AVENIDA NOSSA SENHORA DE FATIMA",
+            "Número": 1612,
+            "Bairro": "CARLOS PRATES",
+            "CEP": "30710-020",
+            "Tipo de combustível": "ETANOL",
+            "Data da atualização": "26/03/2024",
+            "Preço": "3,29",
+            "Unidade de medida": "R$ / litro",
+            "Bandeira": "BRANCA"
+        },
+        {
+            "Cidade": "BELO HORIZONTE",
+            "Nome do posto": "ECO EMPREENDIMENTOS COMERCIAIS LTDA",
+            "CNPJ": " 00.194.032/0001-75",
+            "Rua/avenida": "RUA TUPIS",
+            "Número": 1774,
+            "Bairro": "BARRO PRETO",
+            "CEP": "30190-062",
+            "Tipo de combustível": "ETANOL",
+            "Data da atualização": "27/03/2024",
+            "Preço": "3,38",
+            "Unidade de medida": "R$ / litro",
+            "Bandeira": "BRANCA"
+        },
+        {
+            "Cidade": "BELO HORIZONTE",
+            "Nome do posto": "REDE DAKOTA I LTDA",
+            "CNPJ": " 01.530.043/0001-41",
+            "Rua/avenida": "AVENIDA FRANCISCO SA",
+            "Número": 260,
+            "Bairro": "PRADO",
+            "CEP": "30411-145",
+            "Tipo de combustível": "ETANOL",
+            "Data da atualização": "27/03/2024",
+            "Preço": "3,38",
+            "Unidade de medida": "R$ / litro",
+            "Bandeira": "RAIZEN"
+        },
+        {
+            "Cidade": "BELO HORIZONTE",
+            "Nome do posto": "POSTO LONDRINA LTDA",
+            "CNPJ": " 03.643.398/0001-72",
+            "Rua/avenida": "RUA JAVARI",
+            "Número": 195,
+            "Bairro": "SAO CRISTOVAO",
+            "CEP": "31130-540",
+            "Tipo de combustível": "ETANOL",
+            "Data da atualização": "25/03/2024",
+            "Preço": "3,39",
+            "Unidade de medida": "R$ / litro",
+            "Bandeira": "RAIZEN"
+        },
+        {
+            "Cidade": "BELO HORIZONTE",
+            "Nome do posto": "POSTO OCEANO LTDA",
+            "CNPJ": " 08.401.243/0001-43",
+            "Rua/avenida": "AVENIDA DO CONTORNO",
+            "Número": 10325,
+            "Bairro": "CARLOS PRATES",
+            "CEP": "30110-071",
+            "Tipo de combustível": "ETANOL",
+            "Data da atualização": "26/03/2024",
+            "Preço": "3,39",
+            "Unidade de medida": "R$ / litro",
+            "Bandeira": "RAIZEN"
+        },
+        {
+            "Cidade": "BELO HORIZONTE",
+            "Nome do posto": "POSTO CN LTDA",
+            "CNPJ": " 07.362.678/0001-63",
+            "Rua/avenida": "AVENIDA CRISTIANO MACHADO",
+            "Número": 1383,
+            "Bairro": "DA GRACA",
+            "CEP": "31140-660",
+            "Tipo de combustível": "ETANOL",
+            "Data da atualização": "25/03/2024",
+            "Preço": "3,44",
+            "Unidade de medida": "R$ / litro",
+            "Bandeira": "RAIZEN"
+        }
